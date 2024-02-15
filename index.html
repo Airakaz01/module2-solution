@@ -1,1 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AirakazFood</title>
+</head>
+
+<body>
+    
+<div style="background-color: rgb(247, 245, 192);
+width: 600px;
+height: 500px;
+margin:auto;
+border-style:groove;
+font-size: 17px;">
+<table 
+width: 600px;
+height: 500px;
+cellspacing="10px"
+cellpading="5px"
+align="center"
+>
+    <tr >
+        <td colspan="5" align="center"><b> <font size="6px">Votre commande</td>
+    </tr>
+    <tr>
+        <td colspan="5" align="center"><form>
+        <select name="commande" >
+            <option  value="op1">Tajine</option>
+            <option  value="op1">Couscous</option>
+            <option  value="op1">Rfissa</option>
+            <option  value="op1">Pizza</option>
+        </select>
+        <label for="1">pour</label>
+        <input type="text" size="1px">
+        <label for="2">personnes livrée à</label>
+        <select name="commande" >
+            <option  value="op2">21 heurs</option>
+            <option  value="op2">12 heurs</option>
+            <option  value="op2">6 heurs</option>
+            <option  value="op2">1 heurs</option>
+        </select>
+
+    </form></td>
+    </tr>
+    <tr>
+        <td><form>
+            <label for="3">Avec :<br></label>
+            <input type="checkbox" name="ch1" value="1">de l'huile piquante <br>
+            <input type="checkbox" name="ch1" value="2">du ketchup <br>
+            <input type="checkbox" name="ch1" value="3">de la moutarde <br>
+            <input type="checkbox" name="ch1" value="4">de la mayonnaise <br>
+            
+        </form></td>
+        <td>
+            <form>
+            <label for="4">Paiement par :<br></label>
+              
+            <input type="radio" name="rd1" value="r1">Carte Bleue <br>
+            <input type="radio" name="rd1" value="r2">Carte Visa <br>
+            <input type="radio" name="rd1" value="r3">Master Card <br>
+            </form>
+        </td>
+        <td colspan="3" align="center">
+            <form>
+            <label for="5">Code :</label>
+
+                <input type="password" name="passw"></form>
+        </td>
+    </tr>
+    <tr>
+        <td>Votre adresse :</td>
+    </tr>
+    <tr>
+        <td colspan="5" align="center"><textarea name="adress" cols="40" rows="6">
+        </textarea></td>
+    </tr>
+    <tr> 
+        <!-- <td align="right">Attacher un plan :</td> -->
+        <td colspan="5" align="center"><form>
+            <label for="6">Attacher un plan :</label>
+            <input type="file" name="parc" value="Parcourir">
+
+            <!-- <input type="text" name="plan" value="plan.gif"> -->
+        </form></td>
+        </form></td>
+    </tr>
+    <tr>
+        <td colspan="5" align="center"><hr><div><form>
+            <input type="button" name="comm" value="Commander">
+            <input type="button" name="info" value="Effacer">
+            <input type="button" name="info" value="Informations">
+        </form></div> <hr></td>
+    </tr>
+</table>
+</div>
+</body>
+</html>
