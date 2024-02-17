@@ -1,1 +1,105 @@
+* {
+    box-sizing: border-box;
+  }
+  h1 {
+    margin-bottom: 15px;
+    text-align: center;
+  }
 
+  p {
+    width: 90%;
+    height: 150px;
+    font-style: oblique;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: black;
+  }
+
+.cont2 {
+    position: relative;
+    border: 1px solid rgb(13, 15, 13);
+    width: 100%;
+    height: 50px;
+    background-color:gray;
+}
+
+h4 {
+    position: relative;
+    margin: 10px;
+    font-size: 1.25em;
+}
+
+#ch {
+    background-color: rgb(199, 77, 77);
+    color: #fff;
+    float: right;
+    width: 30%;
+    height: 50px;
+    box-sizing:border-box;
+    text-align: center;
+
+}
+
+#be {
+    background-color: rgb(135, 234, 135);
+    color: #000000;
+    float: right;
+    width: 30%;
+    height: 50px;
+    box-sizing: content-box;
+    text-align: center;
+}
+
+#su {
+    background-color: rgb(71, 71, 237);
+    color: #fff;
+    float: right;
+    width: 30%;
+    height: 50px;
+    box-sizing: content-box;
+    text-align: center;
+}
+.row {
+    width: 100%;
+    margin: 10px;
+  }
+  @media (min-width: 922px) {
+    .desktop {
+      float: left;
+      border: 2px solid rgb(13, 15, 13);
+      background-color:darkgray;
+      margin: 10px;
+    }
+    .desktop{
+      width: 31%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 921px) {
+    .tablet, .sushi {
+      float: left;
+      border: 2px solid rgb(13, 15, 13);
+      background-color:darkgray;
+      margin: 10px;
+    }
+    .tablet {
+      width: 47%;
+    }
+    .sushi {
+        width: 97%;
+    }
+  }
+  @media (max-width: 767px) {
+      .phone {
+        float: left;
+        border: 2px solid rgb(13, 15, 13);
+        background-color:darkgray;
+        margin: 10px;
+      }
+      .phone {
+        width: 100%;
+      }
+    }
